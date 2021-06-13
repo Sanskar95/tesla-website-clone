@@ -6,6 +6,9 @@
   font-family: Arial, Helvetica, sans-serif;
 } 
 
+a{
+  text-decoration: none;
+}
 
 body{
   width: 100%;

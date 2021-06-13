@@ -1,18 +1,23 @@
 import React from "react";
 import styled from "styled-components";
+import Fade from 'react-reveal/Fade'
 
 function Section(props) {
   return (
     <SectionContainer backgroundImage={props.backgroundImageName}>
+        <Fade bottom>
       <PictureText>
         <h1>{props.title}</h1>
         <p>{props.description}</p>
       </PictureText>
+      </Fade>
       <Buttons>
+          <Fade bottom>
         <ButtonGroup>
           <LeftButton>Custom Order</LeftButton>
           <RightButton>Existing Inventory</RightButton>
         </ButtonGroup>
+        </Fade>
         <DownMovingArrow src="images/down-arrow.svg" />
       </Buttons>
     </SectionContainer>
@@ -88,3 +93,4 @@ const DownMovingArrow = styled.img`
 `;
 
 const Buttons = styled.div``;
+
