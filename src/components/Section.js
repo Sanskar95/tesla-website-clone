@@ -37,7 +37,7 @@ const SectionContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image: ${props=> `url("/images/${props.backgroundImage}")`}
+  background-image: ${props=> `url("${process.env.PUBLIC_URL}/images/${props.backgroundImage}")`}
 `;
 
 const PictureText = styled.div`

@@ -1,14 +1,13 @@
 import React from 'react'
 import styled from "styled-components"
 import Section from './Section';
-import chess from './images/model-s.jpg'
 
 
 
 function HomePage() {
     return (
         <Container> 
-            <Section title="Model S" description="Order Online for Contactless delivery" backgroundImageName={chess}/>
+            <Section title="Model S" description="Order Online for Contactless delivery" backgroundImageName="model-s.jpg"/>
             <Section  title="Model X" description="Order Online for Contactless delivery" backgroundImageName="model-x.jpg"/>
             <Section  title="Model Y" description="Order Online for Contactless delivery" backgroundImageName="model-y.jpg"/>
         </Container>
