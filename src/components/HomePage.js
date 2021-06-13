@@ -6,7 +6,9 @@ import Section from './Section';
 function HomePage() {
     return (
         <Container> 
-            <Section/>
+            <Section title="Model S" description="Order Online for Contactless delivery" backgroundImageName="model-s.jpg"/>
+            <Section  title="Model X" description="Order Online for Contactless delivery" backgroundImageName="model-x.jpg"/>
+            <Section  title="Model Y" description="Order Online for Contactless delivery" backgroundImageName="model-y.jpg"/>
         </Container>
     )
 }
